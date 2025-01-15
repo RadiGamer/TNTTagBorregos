@@ -1,0 +1,9 @@
+name: TNTTagBorregos
+version: '1.0-SNAPSHOT'
+main: org.imradigamer.tNTTagBorregos.TNTTagBorregos
+api-version: '1.21'
+authors: [ ImRadiGamer ]
+commands:
+  tnttag:
+    usage: /tnttag
+    description: TNTTag
