@@ -73,7 +73,6 @@ public class TNTTagListener implements Listener {
         // Transfer TNT to the target
         attackerLobby.passTNT(attacker, target);
         target.getWorld().playEffect(target.getLocation(), Effect.SMOKE, 5);
-        event.setCancelled(true); // Prevent any damage
     }
 
     private TNTTagLobby findPlayerLobby(Player player) {

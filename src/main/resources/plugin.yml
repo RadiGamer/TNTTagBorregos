@@ -7,3 +7,4 @@ commands:
   tnttag:
     usage: /tnttag
     description: TNTTag
+    permission: tnttag.admin
